@@ -7,7 +7,7 @@
 		<property name="etc.dir" value="etc"/>
 	</target>
 	
-	<target name="jarExample1" depends="init">
+	<target name="jarExamples1" depends="init">
 		<jar destfile="${src.dir}/lib/app.jar"
 			 basedir="${classes.dir}"
 			 excludes="**/Test.class"
